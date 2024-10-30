@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ABeeZee;
+
+}
+
+
+
+
+h1 {
+    width: 678px;
+    height: 88.77px;
+    top: 113px;
+    left: 13px;
+    gap: 0px;
+    opacity: 0px;
+    color: #fff;
+
+    font-family: Lusitana;
+    font-size: 50px;
+    line-height: 83.01px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.box img {
+    width: 940px;
+    height: 20px;
+}
+
+.danca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 40px;
+}
+
+.textd {
+    width: 648.98px;
+    height: 710px;
+    top: 474px;
+    left: 846.47px;
+    gap: 0px;
+    opacity: 0px;
+
+    font-size: 16px;
+    color: #fff;
+    background-color: #113F60;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: justify;
+    font-weight: 200;
+    font-size: 25px;
+  }
+
+  .imgss .gastronomia {
+    display: flex;
+    flex-direction: column;
+    
+    height: 70vh;
+    gap: 40px;
+
+    max-width: 100%; 
+    height: auto;  
+    
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+    max-width: 1200px;
+    gap: 40px; /* Espaço entre as seções */
+}
+
+.artesanato, .gastronomia {
+    width: 45%;
+    text-align: left; /* Alinha o texto à esquerda */
+    padding: 10px; /* Espaçamento interno para margens */
+}
+
+.artesanato img, .gastronomia img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.artesanato h2, .gastronomia h2 {
+    font-size: 2em;
+    color: #003366;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.artesanato p, .gastronomia p {
+    margin:10px;
+    font-size: 1em;
+    line-height: 1.6;
+    color: #333;
+    text-align: justify;
+}
